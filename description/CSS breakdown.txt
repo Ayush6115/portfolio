@@ -1,0 +1,58 @@
+
+1. General Styles:
+   - The `body` and `html` elements have a defined font family (`'Josefin Sans', sans-serif`) and a height of 100%.
+   - The `navbar` class contains styles for the navigation bar, including positioning, background color, and alignment of its contents.
+   - The `navbar-links` class styles the list of navigation links, including padding, list style, and color.
+   - The `hero` class styles the hero section, including background color, padding, and text alignment.
+   - The `container` class styles the container elements by setting the display, maximum width, and alignment.
+   - The `section-divider` class styles the section divider, which is a horizontal line with a specific color.
+
+2. Navbar Styles:
+   - The `navbar-brand` class styles the branding text in the navigation bar, including font weight, color, and padding.
+   - The `navbar-links li a` class styles the navigation links, including color, font size, and transition effects on hover.
+
+3. Hero Section Styles:
+   - The `hero-content` class styles the container for the hero section content, including flex properties and padding.
+   - The `hero-text` class styles the text content within the hero section, including font color and size.
+   - The `hero-image img` class styles the hero image, including maximum width, height, and padding.
+
+4. About Section Styles:
+   - The `about-section` class styles the container for the about section, including background color and padding.
+   - The `about-left` and `about-right` classes style the left and right sections of the about content, respectively.
+   - The `about-content h2` class styles the heading in the about section, including font size and color.
+   - The `about-content p` class styles the paragraphs in the about section, including font size, color, and alignment.
+
+5. Contact Section Styles:
+   - The `contact-section` class styles the container for the contact section, including background color and padding.
+   - The `contact-form` class styles the contact form container, including text alignment, maximum width, and margin.
+   - The `contact-details` class styles the contact details section, including color, margin, padding, and font size.
+   - The `contact-form h2` class styles the heading of the contact form, including margin and font size.
+   - The `contact-form input` and `contact-form textarea` classes style the input and textarea elements in the contact form, including width, padding, margin, border, and border-radius.
+   - The `contact-form button` class styles the submit button in the contact form, including display, padding, background color, color, border, border-radius, cursor, and transition effects.
+
+6. Footer Styles:
+   - The `footer` class styles the container for the footer section.
+   - The `social-icons` class styles the container for social media icons, including display and margin.
+   - The `social-icons a` class styles the social media icons, including display, margin, font size, and transition effects.
+   - The `footer .container-fluid` class styles the container for the footer content, including padding.
+   - The `footer .copyright` class styles the copyright text, including positioning, text alignment, margin, padding, and font color.
+
+7. Projects Section Styles:
+   - The `projects-section` class styles the container for the projects section, including background color and padding.
+   - The `container1` class styles the container element within the projects section, including maximum width and margin.
+   - The `project-list` class styles the container for project items, including display, flex-wrap, and justification.
+   - The `project-item` class styles the individual project items, including width, background color, border-radius, box-shadow, padding, text alignment, margin, and transition effects.
+
+8. Educational Section Styles:
+   - The `education-internship` class styles the container for the education and internship section, including background color and padding.
+   - The `container2` class styles the container element within the education and internship section, including maximum width and margin.
+   - The `section-heading` class styles the container for section headings, including display, justification, alignment, and margin.
+   - The `section-title h2` class styles the section headings, including color, font size, and font weight.
+   - The `education-list` and `internship-list` classes style the containers for education and internship items, respectively.
+   - The `education-item` and `internship-item` classes style the individual education and internship items, including width, background color, border-radius, box-shadow, padding, text alignment, margin, and color.
+
+9. Scroll-to-Top Button Style:
+   - The `.go-to-top-btn` class styles the scroll-to-top button, including positioning, background color, color, border, border-radius, width, height, font size, and cursor.
+   - The `.go-to-top-btn.active` class shows the button when the user scrolls down the page.
+
+These are the main CSS styles used in the provided code. Additional styles may be present in the linked external CSS file (`styles.css`).

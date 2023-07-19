@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&family=Poppins:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <!---------Navbar start------------>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <i class="fas fa-laptop"></i>Ayush's Portfolio
+        </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-menu-icon"><i class="fas fa-bars"></i></div>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="/portfolio/admin/admin_login.html">Admin</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>I am, <br><span class="red">Ayush Ranjan</span></h1>
+                    <h2>I'm a Web Designer and Developer</h2>
+                    <span id="element"></span>
+                    <div class="hero-buttons">
+                        <br>
+                        <a class="btn" href="resume/resume.pdf" download>Resume</a>
+                        <a class="btn" href="https://github.com/Ayush6115" target="_blank">Github</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="image/hero.jpg" alt="Hero Image">
+            </div>
+        </div>
+    </section>
+    <!---------Navbar End------------>
+
+    <div class="section-divider"></div>
+
+    <!---------About start----------->
+    <section class="about-section" id="about">
+        <div class="container1">
+            <div class="about-left">
+                <div class="about-image">
+                    <img src="image/hero.jpg" alt="Ayush's Photo">
+                </div>
+            </div>
+            <div class="about-right">
+                <div class="about-content">
+                    <h2><i class="fas fa-user-tie"></i>About Me</h2>
+                    <p>I have a basic understanding of web development, particularly in HTML and CSS. I've also dabbled
+                        in programming languages such as Java, C, and Python, gaining some foundational knowledge along
+                        the way.
+                        My ultimate goal is to become a skilled web developer and build amazing websites.
+                        In terms of web development, my current skills allow me to create static web pages and style
+                        them according to my preferences using HTML and CSS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------About End----------->
+
+    <div class="section-divider"></div>
+
+    <!---------Educational start---------->
+
+    <section class="education-internship" id="education">
+        <div class="container2">
+            <div class="section-heading">
+                <div class="section-title">
+                    <h2><i class="fas fa-user-graduate"></i>Educations</h2>
+                </div>
+                <div class="section-title">
+                    <h2><i class="fas fa-chalkboard-teacher"></i>Internships</h2>
+                </div>
+            </div>
+            <div class="education-internship-wrapper">
+                <div class="education-list">
+                    <div class="education-item">
+                        <h3>Post Graduation</h3>
+                        <h4>Amity University Jharkhand</h4>
+                        <p>MCA</p>
+                        <p>2024</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Graduation</h3>
+                        <h4>Ranchi University</h4>
+                        <p>BCA</p>
+                        <p>2021</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Intermediate</h3>
+                        <h4>Y.S.M college</h4>
+                        <p>2018</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Matriculation</h3>
+                        <h4>Lady KC Roy Memorial School</h4>
+                        <p>2016</p>
+                    </div>
+                    <!-- Add more education items as needed -->
+                </div>
+                <div class="internship-list">
+                    <div class="internship-item">
+                        <h3>NSLcOMP</h3>
+                        <h4>Intern</h4>
+                        <p>3 Months</p>
+                    </div>
+                    <div class="internship-item">
+                        <h3>InternPE</h3>
+                        <h4>Intern</h4>
+                        <p>1 Month</p>
+                    </div>
+                    <!-- Add more internship items as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------Educational end---------->
+
+    <div class="section-divider"></div>
+
+    <!-----------Projects started--------------->
+
+    <section class="projects-section" id="projects">
+        <div class="container3">
+            <h2><i class="fas fa-laptop"></i> My Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <img src="image/quiz-app.jpg" alt="Project 1" />
+                    <h3>Quiz App</h3>
+                    <p>Quiz App using react js</p>
+                    <a href="https://github.com/Ayush6115/quiz-app" target="_blank">Learn More</a>
+                </div>
+                <div class="project-item">
+                    <img src="image/Tic-tac.jpg" alt="Project 2" />
+                    <h3>Tic Tac Toe</h3>
+                    <p>Tic Tac Toe using python</p>
+                    <a href="https://github.com/Ayush6115/small_projects" target="_blank">Learn More</a>
+                </div>
+                <div class="project-item">
+                    <img src="image/doctor-search.jpg" alt="Project 1" />
+                    <h3>Doctor Search Website</h3>
+                    <p>Doctor Search website</p>
+                    <a href="https://github.com/Ayush6115/Doctor-search-website" target="_blank">Learn More</a>
+                </div>
+                <!-- Add more project items as needed -->
+            </div>
+        </div>
+    </section>
+    <!-----------Projects end--------------->
+
+    <div class="section-divider"></div>
+
+    <!---------------Contact start---------------->
+
+    <section class="contact-section" id="contact">
+        <div class="container4">
+            <div class="contact-details">
+                <p><i class="fas fa-user"></i> Name: Ayush Ranjan</p>
+                <br>
+                <p><i class="fas fa-envelope"></i> Email: ayush9523116115@gmail.com</p>
+                <br>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Ranchi, Jharkhand</p>
+            </div>
+            <div class="contact-form">
+                <h2><i class="fa fa-address-book"></i> Contact Me</h2>
+                <form method="POST" action="contact.php">
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!---------------Contact End---------------->
+
+    <div class="section-divider"></div>
+
+    <!--------Script for changing element-------->
+
+    <div class="section-divider"></div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Designer', 'Coder', 'Learner.'],
+            typeSpeed: 200,
+            loop: true
+        });
+    </script>
+
+</body>
+
+<!----Footer start----->
+
+<footer>
+    <div class="footer wow fadeIn" data-wow-delay="0.3s">
+        <div class="container5-fluid">
+            <div class="container5">
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100011092299019" class="facebook-icon"
+                        target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_torque__15/" class="instagram-icon" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ayush-ranjan-b8153b266/" class="linkedin-icon"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UC72SbfrlZEnl1YmYIOhpSaw" class="youtube-icon"
+                        target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="container5 copyright">
+                <p>&copy; <a href="index.html">Ayush's Portfolio</a>, All Right Reserved | Designed By <a
+                        href="https://www.linkedin.com/in/ayush-ranjan-b8153b266/" target="_blank">Ayush Ranjan</a></p>
+            </div>
+        </div>
+    </div>
+    <button class="go-to-top-btn" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+</footer>
+
+<!----Footer end----->
+
+</html>

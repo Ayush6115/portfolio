@@ -1,0 +1,235 @@
+/* Media query for smartphones */
+
+@media only screen and (max-width: 48rem) {
+
+  html {
+    font-size: 80%;
+  }
+
+  /*-------Hero Style-------- */
+
+  .hero-image img {
+    max-height: 17rem;
+    padding-right: 2rem;
+    padding-left: 1.5rem;
+    margin-top: 5.5rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .hero-content {
+    padding-left: 2rem;
+    margin-top: 3rem;
+  }
+
+  /*-------Navbar Style-------- */
+
+  .navbar-brand {
+    padding-left: 2rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.625rem;
+  }
+
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.show {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+    position: absolute;
+    top: calc(100% + -1rem);
+    right: 0;
+    background-color: #121051;
+    padding: 1rem;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
+  }
+
+  /*----------------about-------------- */
+
+  .about-section {
+    padding: 2rem;
+  }
+
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .about-image img {
+    max-height: 15rem;
+  }
+
+  .about-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    padding-right: 5.5rem;
+  }
+
+  .about-content p {
+    font-size: 1rem;
+    margin-right: 1.6rem;
+    margin-left: 1.6rem;
+  }
+
+
+  /*--------Styles for Education----------*/
+
+  .section-title {
+    flex-basis: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .education-list {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .internship-item {
+    margin-right: 0.1rem;
+  }
+
+  .education-item,
+  .internship-item {
+    width: 80%;
+    padding: 0.9rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-title h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.2rem;
+  }
+
+  /*-------Project styling---------*/
+
+  .container3 {
+    max-width: 100%;
+
+  }
+
+  .projects-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3.5rem;
+  }
+
+  .project-item {
+    width: 100%;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    padding: 1.5rem;
+  }
+
+  /*-------contact styling---------*/
+
+  .container4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form {
+    order: 1;
+    margin-bottom: 0;
+  }
+
+  .contact-details {
+    margin-bottom: 4rem;
+    margin-top: 0;
+    font-size: 1.1rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 22rem;
+  }
+
+  .contact-form textarea {
+    height: 5rem;
+    width: 22rem;
+  }
+
+  .contact-form button {
+    margin-top: 0.5rem;
+  }
+
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+
+  /*-------responsive footer---------*/
+
+  .footer .container-fluid {
+    padding: 2rem 0 0 0;
+  }
+
+  .footer .col-md-6:last-child p {
+    text-align: center;
+  }
+
+  .footer .footer-menu p {
+    text-align: center;
+  }
+
+  .footer .footer-menu p:last-child {
+    margin-bottom: 1rem;
+  }
+
+  /*-------------- Goto button styling------- */
+
+  .go-to-top-btn {
+    bottom: 6rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
+  }
+
+  .go-to-top-btn i {
+    margin-top: 0.4rem;
+  }
+}
+
+/* Media query for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+
+/* Media query for Laptops */
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 110%;
+  }
+
+}

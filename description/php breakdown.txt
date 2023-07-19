@@ -1,0 +1,32 @@
+
+1. Database Connection Configuration:
+   - The code defines the server name, username, password, and database name for the MySQL database.
+   - You may need to modify these values to match your database configuration.
+
+2. Creating Database Connection:
+   - The `mysqli` class is used to create a new MySQL database connection.
+   - The connection parameters are passed to the `mysqli` constructor.
+
+3. Checking Connection:
+   - The code checks if the database connection is successful by using the `connect_error` property of the `$conn` object.
+   - If the connection fails, an error message is displayed, and the script terminates using `die()`.
+
+4. Form Submission Handling:
+   - The code checks if the form is submitted by checking the `REQUEST_METHOD` against `"POST"`.
+   - If the form is submitted, it retrieves the form data from the `$_POST` superglobal.
+   - The form data (name, email, and message) is assigned to respective variables.
+
+5. Preparing SQL Statement:
+   - The code prepares an SQL statement to insert the form data into the `portfolio_data` table.
+   - The SQL statement uses the `INSERT INTO` syntax to specify the table name and column names, and it uses placeholders (`'$name'`, `'$email'`, `'$message'`) to represent the form data.
+
+6. Executing SQL Statement:
+   - The code executes the SQL statement using the `query()` method of the `$conn` object.
+   - If the query execution is successful, a success message is displayed.
+   - The database connection is closed using the `close()` method of the `$conn` object.
+   - The script then redirects the user to the homepage (`index.html`) after a 2-second delay using the `header()` function with the `refresh` parameter.
+
+7. Error Handling:
+   - If there is an error executing the SQL statement, an error message is displayed, including the SQL statement and the error message retrieved from the `$conn` object.
+
+The PHP code handles form submission and inserts the form data into the database table. It provides error handling and success message display. Additionally, it redirects the user back to the homepage after a successful form submission.

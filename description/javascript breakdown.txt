@@ -1,0 +1,18 @@
+Here is the breakdown of the JavaScript code included in the provided code:
+
+1. `scrollToTop()` Function:
+   - This function is used to scroll the page to the top when called.
+   - It uses the `window.scrollTo()` method to scroll to the top of the page.
+   - The `top` parameter is set to 0 to indicate the top position.
+   - The `behavior` parameter is set to 'smooth' to enable smooth scrolling.
+
+2. Scroll Event Listener:
+   - This event listener is attached to the `window` object and listens for the 'scroll' event.
+   - When the user scrolls the page, the provided callback function is executed.
+   - The callback function checks the scroll position (`window.scrollY`) to determine whether to show or hide the "Go to Top" button.
+
+3. Showing/Hiding the "Go to Top" Button:
+   - The code selects the "Go to Top" button using the `.querySelector()` method and the `.go-to-top-btn` class.
+   - If the scroll position (`window.scrollY`) is greater than 300 pixels, the `active` class is added to the button using the `.classList.add()` method.
+   - Otherwise, if the scroll position is less than or equal to 300 pixels, the `active` class is removed from the button using the `.classList.remove()` method.
+
